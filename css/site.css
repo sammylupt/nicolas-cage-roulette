@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+	background:url('../images/cage-small.png') 0 0;
+	overflow: auto;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    text-align: center;
+    color: white;
+}
+
+.container {
+    width: 600px;
+    height: 600px;
+    margin: 0 auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -300px;
+    margin-top: -300px;
+    background-color: #1D1715; /* IE8 */
+    background-color: rgba(0, 0, 0, .8);
+}
+
+.buttons {
+    background-color: #ededed;
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #dfdfdf) );
+    background:-moz-linear-gradient( center top, #ededed 5%, #dfdfdf 100% );
+    padding: 6px 24px;
+    margin-right: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 6px;
+    color: #777;
+}
+
+.buttons:active {
+    position: relative;
+    top: 1px;
+}
+
+.movieButtons {
+    margin-top: 20px;
+    position: relative;
+    left: 15px;
+    margin-bottom: 25px;
+}
+.disclaimer {
+    width: 80%;
+    text-align: justify;
+    margin: 0 auto;
+    line-height: 150%;
+}
+
+.fb-like {
+    position: relative;
+    display: inline-block;
+    top: 25px;
+    right: 240px;
+}
+
+.madeBy {
+    position: absolute;
+    right: 10px;
+    bottom: 30px;
+    font-weight: bold;
+    font-size: 10px;
+}
+
+a { color: white; }
+
+h1, h2 {  text-transform: uppercase; }
+h1 { font-size: 32px; }
+h2 {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+

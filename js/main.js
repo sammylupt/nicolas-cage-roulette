@@ -22,8 +22,8 @@ function cageMe(event) {
     add those movies */
     
     if (this.getAttribute('data-cage')) {
-        movies.push('70044693', '692295');
-        /* world trade center, leaving las vegas*/
+        movies.push('70044693');
+        /* world trade center */
 
     } 
 

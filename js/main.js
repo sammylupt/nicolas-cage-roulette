@@ -15,8 +15,8 @@ for (var i in buttons) {
 function cageMe(event) {
     event.preventDefault();
     
-    var movies = ['70135880', '70206627', '1154341', '60000088', '60020812', '70257818'];
-    /*seeking justice, trespass, face off, bringing out the dead, windtalkers, stolen */
+    var movies = ['70135880', '70206627', '1154341', '60020812', '70257818'];
+    /*seeking justice, trespass, face off, windtalkers, stolen */
 
     /*the "All Movies" link has a data-cage attr. If this link is clicked,
     add those movies */

@@ -15,15 +15,15 @@ for (var i in buttons) {
 function cageMe(event) {
     event.preventDefault();
     
-    var movies = ['70135880', '70206627', '1154341', '60020812', '70257818'];
-    /*seeking justice, trespass, face off, windtalkers, stolen */
+    var movies = ['70135880', '70206627', '1154341', '70257818'];
+    /*seeking justice, trespass, face off, stolen */
 
     /*the "All Movies" link has a data-cage attr. If this link is clicked,
     add those movies */
     
     if (this.getAttribute('data-cage')) {
-        movies.push('70044693');
-        /* world trade center */
+        movies.push('70017836');
+        /* racing with the moon */
 
     } 
 
